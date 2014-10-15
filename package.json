@@ -1,0 +1,23 @@
+{
+  "name": "smartmood",
+  "version": "1.0.1",
+  "description": "Sample test module",
+  "private": true, 
+  "main": "index",
+  "scripts": {
+    "test": "make test"    
+  },
+  "author": "smartmouse",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/smartmouse/smartmood.git"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.5"
+  }
+}

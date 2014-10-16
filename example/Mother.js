@@ -1,6 +1,7 @@
 var mother = require('../index');
 var myfilter = require('colors');
 var  text = mother.yell('Mother: Get Up');
+
 console.log(myfilter.green(text.replace('Get Up','No school, Sleep in').replace('Mother','I hear from Mother')));
 
 var text1 = mother.congrad('Mother:Good Job');

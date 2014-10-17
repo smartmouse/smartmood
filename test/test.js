@@ -7,7 +7,7 @@ var should = require('chai').should(),
 
 
 describe('#yell', function() {
-  it('converts text into text%#$!!!! ', function() {
+  it('converts text into text%#$!!!!', function() {
     yell(String('go to bed')).should.equal(color.red('go to bed%#$!!!!'));
 
    });

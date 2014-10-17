@@ -2,7 +2,7 @@
   "name": "smartmood",
   "version": "1.0.1",
   "description": "Sample test module",
-  "private": true, 
+  "private": false, 
   "main": "index",
   "scripts": {
     "test": "make test"    

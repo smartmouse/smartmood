@@ -1,4 +1,4 @@
-SmartMood
+smartmood
 =======
 
 A small library providing utility methods to add colors that convery the mood and tone of the text.
@@ -6,18 +6,23 @@ A small library providing utility methods to add colors that convery the mood an
 
 ## installation
 
-npm install mood --save
+npm install smartmood 
 
 
 ## Usage
 
-var  mood  = require('mood')
 
-     yell = mood.yell('Start debugging'),
+mood -- happy, sad, bored, calm, anxious, curious, determined, cheerful, energetic, 
+        angry, moody, down, tired, lonely, naughty.  
 
-     consult = mood.consult('Invest now'),
 
+var  mood  = require('smartmood')
+     yell = mood.yell('What the!'),
+     consult = mood.consult('Invest'),
      congrad = mood.congrad('Happy Birthday');
+     console.log(moodify('happy','Wonderful day!'); 
+
+
 
 
 

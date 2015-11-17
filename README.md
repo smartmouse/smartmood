@@ -1,4 +1,4 @@
-smartmood
+weakloop
 =======
 
 A small library providing utility methods to add colors that convery the mood and tone of the text.

@@ -1,4 +1,4 @@
-smartmood2
+smartmood
 =======
 
 A small library providing utility methods to add colors that convery the mood and tone of the text.
